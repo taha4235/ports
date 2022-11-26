@@ -1,0 +1,454 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.aside-bar{
+    width:250px;
+    background-color:darkslategray;
+    height:100%;
+    color:white;
+    padding: 0 20px;
+    margin-left:-20px;
+    margin-top: -19px;
+    position: relative;
+    padding:20px 0px 20px 0px;
+    flex-basis: 20%;
+    position:fixed;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 17px;
+  margin-bottom: 20px;
+}
+.nav-links{
+    text-align: center;
+    margin-left:-35px;
+    font-family: sans-serif;
+}
+.nav-links-2{
+    margin-top:150px
+}
+.nav-links-2 ul li{
+    list-style: none;
+    display: inline-block;
+}
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.title span{
+    color:yellow;
+}
+.nav-links ul li a:hover{
+    color:yellow;
+    text-transform:capitalize;
+    transform: translateY(-4px);
+}
+.nav-links-2 ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 13px;
+    margin-left:30px;
+    margin-top:20px
+}
+.fa-solid{
+    margin-left:30px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.nav-links-2 ul li a:hover,.title-2:hover{
+   color:yellow;
+   text-transform: capitalize;
+}
+.title-2{
+    text-align: center;
+    font-family:sans-serif;
+    text-transform: capitalize;
+    font-size: 17px;
+    cursor: pointer;
+}
+.about-home{
+    position: absolute;
+    margin-top:210px;
+    margin-left:100px;
+}
+.info h3{
+    position: absolute;
+    color:black;
+    margin-left:300px;
+    margin-top:10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 24px;
+}
+.info h3 span{
+    color:darkorange;
+    cursor:pointer;
+}
+.info p{
+   position: absolute;
+   margin-left:300px;
+   margin-top:70px;
+}
+
+.info{
+    display: flex;
+    margin-left:40px;
+    
+}
+.info h5{
+    position: relative;
+}
+.search-box{
+    margin-left:300px;
+    margin-top:130px;
+    width:400px;
+    background-color: whitesmoke;
+    display: flex;
+    outline: none;
+    border:none;
+    padding:6px;
+}
+.search-box input{
+    width:70%;
+    padding:6px;
+    outline:none;
+    border:none
+}
+.title-5{
+    margin-left:340px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.home-page{
+    display: flex;
+    margin-left:850px;
+    margin-top:-250px;
+}
+.home-page img{
+    width:300px;
+    height: 300px;
+}
+.title-5 span{
+    color:darkorange;
+}
+.img img{
+    width:300px;
+    height:330px;
+    margin-left:200px;
+}
+.search-box button{
+    width:150px;
+    height:30px;
+    outline:none;
+    border:none;
+    background-color:darkorange;
+    border-radius:4px;
+    cursor:pointer;
+}
+.search-box button:hover{
+    background-color:black;
+    width:180px;
+    color:white;
+}
+.about-me{
+    width:70%;
+    position:absolute;
+    margin-top:850px;
+ margin-left:350px;
+    display: flex;
+    height:90%
+}
+.title-about-me{
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor:pointer;
+    margin-top:-30px;
+    font-size: 24px;
+}
+.title-about-me span{
+    color:darkorange;
+}
+.img {
+    position: absolute;
+    margin-left:-210px;
+    width:210px;
+    height:300px;
+}
+.img img{
+    border:6px solid white;
+    cursor:pointer;
+}
+.inforamtion-about {
+    margin-left:220px;
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top:-24px;
+    cursor:pointer
+
+}
+.inforamtion-about p{
+    font-size: 16px;
+    margin-top:-20px
+}
+.inforamtion-about-me ul li{
+list-style: none;
+font-size: 16px;
+margin-top: 20px;
+}
+.inforamtion-about-me span{
+    color:darkorange;
+}
+.inforamtion-about-me2{
+    margin-left: 200px;
+    margin-top: -160px;
+    font-size: 16px;
+}
+.inforamtion-about-me2 ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.inforamtion-about-me2 ul li span{
+    color:darkorange;
+}
+.button-clicked{
+    margin-left:46px;
+    width:300px;
+    display: inline-block;
+}
+.button-clicked ,.first-btn{
+    width:100px;
+    height:30px;
+    outline:none;
+    border:none;
+    background-color:darkorange;
+    color:white;
+    border-radius:4px;
+}
+.second-btn{
+    margin-left:10px;
+    width:100px;
+    height:30px;
+    border-radius:4px;
+     border:none;
+     outline:none;
+     background-color:darkorange;
+     color:white;
+  position: absolute;
+  cursor:pointer;
+
+}
+.first-btn:hover,.second-btn:hover{
+    width:105px;
+    background-color:black;
+    color:white;
+    border-radius:4px;
+    height:30px;
+}
+.services{
+    margin-left:300px;
+    width:70%;
+    position: absolute;
+    height: 300px;
+    margin-top:1350px;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.title-services-section{
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.title-services-section span{
+    color:darkorange;
+}
+.column{
+    width:300px;
+    height:200px;
+    border-radius:4px;
+    margin-top:70px;
+    margin-left:20px;
+    cursor:pointer;
+}
+.six-container{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:50px;
+    margin-left:-100px;
+}
+.first{
+    width:100%;
+    height:100%;
+}
+.column,.first:hover{
+    transform: translate3d(2.3px);
+}
+.contact-container{
+    width:70%;
+    height:500px;
+    margin-left:300px;
+    position: absolute;
+    margin-top:2000px;
+   
+}
+.contact-me{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+.contact-me span{
+    color:darkorange;
+}
+.contact{
+    width:700px;
+    height:400px;
+    background-color:white;
+    margin-left:40px;
+    display: flex;
+}
+.form-container{
+    width:350px;
+    height:400px;
+    background-color:lightgray;
+}
+.form-container form{
+    margin-top:30px;
+}
+.form-container form input{
+    margin-left:30px;
+    width:80%;
+    height:30px;
+    margin-top:20px;
+    outline:none;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+}
+.form-container form textarea{
+    margin-left: 30px;
+    resize: none;
+    width:80%;
+    height: 100px;
+    margin-top:20px;
+    padding:7px;
+    outline:none;
+    border:none;
+    border-radius: 4px;
+}
+.send{
+    margin-left:30px;
+    width:80%;
+    margin-top:10px;
+    height:30px;
+    outline:none;
+    border:none;
+    background-color:darkorange;
+    color:white;
+    border-radius:5px;
+}
+.experience{
+    width:900px;
+    position: absolute;
+    height:400px;
+    margin-left:300px;
+    margin-top:2600px
+}
+.title-experience{
+    font-size: 24px;
+    text-transform: capitalize;
+    cursor:pointer
+}
+.title-experience span{
+    color:darkorange;
+}
+.expereince-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:600px;
+    height:300px;
+}
+.first-container{
+    width:200px;
+    height:90px;
+    background-color:white;
+    border-radius:5px;
+}
+.first-container .info-pa{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:-2px;
+    margin-left:10px;
+}
+.divo{
+    margin-top:10px
+}
+.first-title{
+    font-size: 13px;
+    margin-left:45px;
+    margin-top:-30px;
+}
+.first-container,.lorem{
+    font-size: 10px;
+}
+.info-about-develloper{
+    margin-left: 300px;
+  position: absolute;
+  margin-top:2990px;
+  width:600px;
+  height:200px;
+}
+.info-about-develloper p{
+margin-left:300px;
+font-size: 17px;
+font-weight: bold;
+text-transform: capitalize;
+cursor:pointer;
+animation: taha 2s infinite linear;
+
+}
+.info-about-develloper p:hover{
+    color:darkorange;
+}
+.listo{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .aside-bar{
+        display: none;
+    }
+    .listo{
+        display: block;
+        text-decoration: none;
+        position: absolute;
+    }
+    .listo i{
+        font-size: 24px;
+        color:black
+    }
+    .about-home{
+        position: absolute;
+        margin-left:-290px;
+     
+    }
+    .about-home p{
+        font-size: 12px;
+    }
+    .img img{
+      margin-left:-290px;
+      display: block;
+    }
+}
